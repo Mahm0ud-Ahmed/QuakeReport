@@ -15,4 +15,34 @@
 -->
 <resources>
     <string name="app_name">Quake Report</string>
+    <string name="no_data">No Data Now!</string>
+    <string name="no_internet">No internet connection.</string>
+
+
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Earthquake Settings</string>
+
+    <!-- Strings For Minimum Magnitude Preference [CHAR LIMIT=30] -->
+    <string name="settings_min_magnitude_label">Minimum Magnitude</string>  <!-- اسم العنصر على الشاشه -->
+    <string name="settings_min_magnitude_key" translatable="false">min_magnitude</string>  <!-- مفتاح العنصر على الشاشه -->
+    <string name="settings_min_magnitude_default" translatable="false">6</string>  <!-- القيمة الافتراضيه للعنصر على الشاشه -->
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>  <!-- اسم العنصر على الشاشه -->
+    <string name="settings_order_by_key" translatable="false">order_by</string>  <!-- مفتاح العنصر على الشاشه -->
+    <!-- القيمة الافتراضيه للعنصر على الشاشه -->
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_magnitude_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_magnitude_label">Magnitude</string>  <!-- اسم العنصر الاول على شاشة ال Order By -->
+    <string name="settings_order_by_magnitude_value" translatable="false">magnitude</string>  <!-- قيمة العنصر الاول على شاشة ال Order By -->
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>  <!-- اسم العنصر الثاني على شاشة ال Order By -->
+    <string name="settings_order_by_most_recent_value" translatable="false">time</string>  <!-- قيمة العنصر الثاني على شاشة ال Order By -->
+
 </resources>
+
